@@ -7,19 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34950EF41D49F09300B84216 /* RVAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EDA1D49F09300B84216 /* RVAccount.swift */; };
+		34950EF51D49F09300B84216 /* RVCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EDC1D49F09300B84216 /* RVCurrency.swift */; };
+		34950EF61D49F09300B84216 /* RVCurrencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EDD1D49F09300B84216 /* RVCurrencyList.swift */; };
+		34950EF71D49F09300B84216 /* String+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EDF1D49F09300B84216 /* String+Currency.swift */; };
+		34950EF81D49F09300B84216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34950EE11D49F09300B84216 /* Assets.xcassets */; };
+		34950EF91D49F09300B84216 /* CurrencyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34950EE31D49F09300B84216 /* CurrencyList.plist */; };
+		34950EFA1D49F09300B84216 /* DefaultAccount.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34950EE41D49F09300B84216 /* DefaultAccount.plist */; };
+		34950EFD1D49F09300B84216 /* RVRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EEA1D49F09300B84216 /* RVRates.swift */; };
+		34950EFE1D49F09300B84216 /* RVRatesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EEB1D49F09300B84216 /* RVRatesFetcher.swift */; };
+		34950EFF1D49F09300B84216 /* RVStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EEC1D49F09300B84216 /* RVStock.swift */; };
+		34950F001D49F09300B84216 /* RVTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EEE1D49F09300B84216 /* RVTransaction.swift */; };
+		34950F011D49F09300B84216 /* RVTransactionItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EF01D49F09300B84216 /* RVTransactionItemViewController.swift */; };
+		34950F021D49F09300B84216 /* RVTransactionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EF11D49F09300B84216 /* RVTransactionPageController.swift */; };
+		34950F031D49F09300B84216 /* RVTransactionPageControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EF21D49F09300B84216 /* RVTransactionPageControllerDataSource.swift */; };
+		34950F041D49F09300B84216 /* RVTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34950EF31D49F09300B84216 /* RVTransactionViewController.swift */; };
+		34950F051D49F6F800B84216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34950EE71D49F09300B84216 /* Main.storyboard */; };
 		34F730951D422C0E00DAA711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F730941D422C0E00DAA711 /* AppDelegate.swift */; };
-		34F730971D422C0E00DAA711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F730961D422C0E00DAA711 /* ViewController.swift */; };
-		34F7309A1D422C0E00DAA711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F730981D422C0E00DAA711 /* Main.storyboard */; };
-		34F7309C1D422C0E00DAA711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F7309B1D422C0E00DAA711 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34950EDA1D49F09300B84216 /* RVAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVAccount.swift; sourceTree = "<group>"; };
+		34950EDC1D49F09300B84216 /* RVCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVCurrency.swift; sourceTree = "<group>"; };
+		34950EDD1D49F09300B84216 /* RVCurrencyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVCurrencyList.swift; sourceTree = "<group>"; };
+		34950EDF1D49F09300B84216 /* String+Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Currency.swift"; sourceTree = "<group>"; };
+		34950EE11D49F09300B84216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34950EE31D49F09300B84216 /* CurrencyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CurrencyList.plist; sourceTree = "<group>"; };
+		34950EE41D49F09300B84216 /* DefaultAccount.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultAccount.plist; sourceTree = "<group>"; };
+		34950EE51D49F09300B84216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34950EE81D49F09300B84216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34950EEA1D49F09300B84216 /* RVRates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVRates.swift; sourceTree = "<group>"; };
+		34950EEB1D49F09300B84216 /* RVRatesFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVRatesFetcher.swift; sourceTree = "<group>"; };
+		34950EEC1D49F09300B84216 /* RVStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVStock.swift; sourceTree = "<group>"; };
+		34950EEE1D49F09300B84216 /* RVTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVTransaction.swift; sourceTree = "<group>"; };
+		34950EF01D49F09300B84216 /* RVTransactionItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVTransactionItemViewController.swift; sourceTree = "<group>"; };
+		34950EF11D49F09300B84216 /* RVTransactionPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVTransactionPageController.swift; sourceTree = "<group>"; };
+		34950EF21D49F09300B84216 /* RVTransactionPageControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVTransactionPageControllerDataSource.swift; sourceTree = "<group>"; };
+		34950EF31D49F09300B84216 /* RVTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVTransactionViewController.swift; sourceTree = "<group>"; };
 		34F730911D422C0E00DAA711 /* Revolut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revolut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F730941D422C0E00DAA711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34F730961D422C0E00DAA711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34F730991D422C0E00DAA711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		34F7309B1D422C0E00DAA711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34F730A01D422C0E00DAA711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34950ED91D49F09300B84216 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				34950EDA1D49F09300B84216 /* RVAccount.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		34950EDB1D49F09300B84216 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				34950EDC1D49F09300B84216 /* RVCurrency.swift */,
+				34950EDD1D49F09300B84216 /* RVCurrencyList.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		34950EDE1D49F09300B84216 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34950EDF1D49F09300B84216 /* String+Currency.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34950EE01D49F09300B84216 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34950EE11D49F09300B84216 /* Assets.xcassets */,
+				34950EE21D49F09300B84216 /* Configuration */,
+				34950EE61D49F09300B84216 /* Interface */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34950EE21D49F09300B84216 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				34950EE31D49F09300B84216 /* CurrencyList.plist */,
+				34950EE41D49F09300B84216 /* DefaultAccount.plist */,
+				34950EE51D49F09300B84216 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		34950EE61D49F09300B84216 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				34950EE71D49F09300B84216 /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		34950EE91D49F09300B84216 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				34950EEA1D49F09300B84216 /* RVRates.swift */,
+				34950EEB1D49F09300B84216 /* RVRatesFetcher.swift */,
+				34950EEC1D49F09300B84216 /* RVStock.swift */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		34950EED1D49F09300B84216 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				34950EEE1D49F09300B84216 /* RVTransaction.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		34950EEF1D49F09300B84216 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				34950EF01D49F09300B84216 /* RVTransactionItemViewController.swift */,
+				34950EF11D49F09300B84216 /* RVTransactionPageController.swift */,
+				34950EF21D49F09300B84216 /* RVTransactionPageControllerDataSource.swift */,
+				34950EF31D49F09300B84216 /* RVTransactionViewController.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
 		34F730881D422C0E00DAA711 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +161,13 @@
 			isa = PBXGroup;
 			children = (
 				34F730941D422C0E00DAA711 /* AppDelegate.swift */,
-				34F730961D422C0E00DAA711 /* ViewController.swift */,
-				34F730981D422C0E00DAA711 /* Main.storyboard */,
-				34F7309B1D422C0E00DAA711 /* Assets.xcassets */,
-				34F730A01D422C0E00DAA711 /* Info.plist */,
+				34950ED91D49F09300B84216 /* Account */,
+				34950EDB1D49F09300B84216 /* Currency */,
+				34950EDE1D49F09300B84216 /* Extensions */,
+				34950EE01D49F09300B84216 /* Resources */,
+				34950EE91D49F09300B84216 /* Stock */,
+				34950EED1D49F09300B84216 /* Transaction */,
+				34950EEF1D49F09300B84216 /* User Interface */,
 			);
 			path = Revolut;
 			sourceTree = "<group>";
@@ -118,8 +229,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F7309C1D422C0E00DAA711 /* Assets.xcassets in Resources */,
-				34F7309A1D422C0E00DAA711 /* Main.storyboard in Resources */,
+				34950F051D49F6F800B84216 /* Main.storyboard in Resources */,
+				34950EF81D49F09300B84216 /* Assets.xcassets in Resources */,
+				34950EF91D49F09300B84216 /* CurrencyList.plist in Resources */,
+				34950EFA1D49F09300B84216 /* DefaultAccount.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,18 +243,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F730971D422C0E00DAA711 /* ViewController.swift in Sources */,
+				34950F011D49F09300B84216 /* RVTransactionItemViewController.swift in Sources */,
 				34F730951D422C0E00DAA711 /* AppDelegate.swift in Sources */,
+				34950EF51D49F09300B84216 /* RVCurrency.swift in Sources */,
+				34950EF61D49F09300B84216 /* RVCurrencyList.swift in Sources */,
+				34950F041D49F09300B84216 /* RVTransactionViewController.swift in Sources */,
+				34950F031D49F09300B84216 /* RVTransactionPageControllerDataSource.swift in Sources */,
+				34950EFD1D49F09300B84216 /* RVRates.swift in Sources */,
+				34950F021D49F09300B84216 /* RVTransactionPageController.swift in Sources */,
+				34950EFF1D49F09300B84216 /* RVStock.swift in Sources */,
+				34950F001D49F09300B84216 /* RVTransaction.swift in Sources */,
+				34950EF71D49F09300B84216 /* String+Currency.swift in Sources */,
+				34950EFE1D49F09300B84216 /* RVRatesFetcher.swift in Sources */,
+				34950EF41D49F09300B84216 /* RVAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		34F730981D422C0E00DAA711 /* Main.storyboard */ = {
+		34950EE71D49F09300B84216 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34F730991D422C0E00DAA711 /* Base */,
+				34950EE81D49F09300B84216 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -239,7 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Revolut/Info.plist;
+				INFOPLIST_FILE = Revolut/Resources/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = grechuhin.ilya.Revolut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -252,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Revolut/Info.plist;
+				INFOPLIST_FILE = Revolut/Resources/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = grechuhin.ilya.Revolut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,6 +403,7 @@
 				34F730A51D422C0E00DAA711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
